@@ -1,19 +1,19 @@
-# 🌩️ VPC and Subnet Creation Lab
+#  VPC and Subnet Creation Lab
 
-## 📅 Date
+##  Date
 July 14, 2025
 
-## 📝 Objective
+## Objective
 To create a custom Virtual Private Cloud (VPC) with public and private subnets, attach an Internet Gateway, and configure a route table for internet access.
 
-## 📌 Services Used
+## Services Used
 - AWS VPC  
 - Subnets  
 - Internet Gateway  
 - Route Table  
 - EC2 (optional)
 
-## 🛠️ Steps Taken
+##  Steps Taken
 
 1. **Create a Custom VPC**
    - Name: `uyicloud-vpc`
@@ -44,15 +44,15 @@ To create a custom Virtual Private Cloud (VPC) with public and private subnets, 
 
 7. **Test SSH and internet access**
 
-## 📸 Screenshots
+##  Screenshots
 - `vpc-diagram.png` (add your diagram here)
 - `instance-ssh.png` (optional)
 
-## ⚠️ Challenges
+## Challenges
 - SSH: Permission denied → Fixed with `chmod 400 mykey.pem`
 - Route table not working initially → Rechecked association
 
-## 📚 What I Learned
+## What I Learned
 - How to create a VPC with subnets in AWS
 - How route tables control traffic flow
 - Importance of correct associations in networking
